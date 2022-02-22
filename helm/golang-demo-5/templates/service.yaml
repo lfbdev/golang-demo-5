@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: golang-demo-5
+spec:
+  selector:
+    app: golang-demo-5
+  ports:
+    - port: 80
+      targetPort: 8080
